@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AlunoComponent } from './aluno/aluno.component';
 import { ProfessoresComponent } from './professores/professores.component';
+import { PerfilComponent } from './perfil/perfil.component';
+import { TelaprincipalComponent } from './telaprincipal/telaprincipal.component';
 
 @NgModule({
   declarations: [	
     AppComponent,
     AlunoComponent,
-      ProfessoresComponent
+      ProfessoresComponent,
+      PerfilComponent,
+      TelaprincipalComponent
    ],
   imports: [
     BrowserModule,
