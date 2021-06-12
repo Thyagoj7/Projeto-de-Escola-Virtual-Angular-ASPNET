@@ -10,13 +10,13 @@ export class AlunoComponent implements OnInit {
   titulo='Alunos';
 
   public alunos = [
-    'Thyago',
-    'Marcelo',
-    'Pedro',
-    'Julho',
-    'Jose',
-    'Camila',
-    'Alonsso',
+   { nome:'Thyago'},
+   { nome:'Marcelo'},
+   { nome:'Pedro'},
+   { nome:'Julho'},
+   { nome:'Jose'},
+   { nome:'Camila'},
+   { nome:'Alonsso'},
   ];
 
 
