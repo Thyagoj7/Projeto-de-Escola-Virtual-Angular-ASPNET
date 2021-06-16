@@ -17,6 +17,7 @@ export class AlunoComponent implements OnInit {
    { nome:'Jose'},
    { nome:'Camila'},
    { nome:'Alonsso'},
+   { nome:'Alonssos'}
   ];
 
 
